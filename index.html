@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fletcher Kibor | Web Developer</title>
+  <meta name="description" content="Freelance web developer building fast, responsive websites and custom business systems for small businesses.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">Fletcher Kibor<span>.dev</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Freelance Web Developer</p>
+        <h1>I build websites and systems that help businesses businesses grow.</h1>
+        <p class="lead">Clean, fast, mobile-friendly websites and custom business tools, built to fit your business and your budget.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">See my work</a>
+          <a href="#contact" class="btn btn-outline">Hire me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="about-grid">
+          <div class="avatar" aria-hidden="true">Fk</div>
+          <div>
+            <p>Hi, I'm <strong>Fletcher Kibor</strong>, a freelance developer based in Nairobi, Kenya. I help local businesses get online with professional websites and simple systems that save time.</p>
+            <p>I work with HTML, CSS,Javascript, Python and SQL, and I'm always learning. I care about clear communication, fair pricing and delivering on time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Business Websites</h3>
+            <p>Professional, mobile-friendly websites for shops, restaurants, salons, schools and more. Includes contact forms, maps and WhatsApp links.</p>
+          </article>
+          <article class="card">
+            <h3>Custom Business Systems</h3>
+            <p>Simple tools to manage orders, bookings, stock or customers, built around how your business actually works.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid grid-3">
+          <article class="card project">
+            <div class="thumb">Bar &amp; Restaurant</div>
+            <h3>Bar &amp; Restaurant Website</h3>
+            <p>A responsive site with menu, opening hours, location and contact details.</p>
+            <p class="tags">HTML &middot;Javascript &middot; CSS</p>
+            <a href="#" class="link">View project &rarr;</a>
+          </article>
+          <article class="card project">
+            <div class="thumb">Online shop</div>
+            <h3>Simple online shop</h3>
+            <p>Makes users view products online and make their order directly.</p>
+            <p class="tags">HTML &middot;SQL &middot; CSS &middot; JS</p>
+            <a href="#" class="link">View project &rarr;</a>
+          </article>
+          <article class="card project">
+            <div class="thumb">Login page
+            </div>
+            <h3>Login page</h3>
+            <p>Asking users to input usernames and passwords,checks them and if it matches ,allows access to another website.</p>
+            <p class="tags">Python &middot; SQL</p>
+            <a href="#" class="link">View project &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Responsive Design</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>Let's work together</h2>
+        <p>Have a project in mind? Send me a message and I'll reply within 24 hours.</p>
+        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send message</button>
+        </form>
+        <p class="alt-contact">
+          Or reach me directly:
+          <a href="mailto:kenborz20@.com">Gmail.com</a> &middot;
+          <a href="https://wa.me/254728435996">WhatsApp</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Fletcher Kibor. All rights reserved.</p>
+    </div>
+  </footer>
+
+ 
+</body>
+</html>
